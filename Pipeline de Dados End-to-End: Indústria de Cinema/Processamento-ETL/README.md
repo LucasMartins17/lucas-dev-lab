@@ -546,6 +546,9 @@ Essa consulta retornará os primeiros 10 registros da tabela gerada a partir dos
 - TMDB 
 ![Crawlers - Sucesso ](evidencias/tmdb.png)
 
+# ⚠️ Observação 
+Nas consultas realizadas alguns dados na primeira observação podem se mostrar como "duplicados" mas se os analisarmos podemos notar que no decorrer de sua linha alguma informação muda. Muito obrigado pela compreensão.
+
 # Conclusão
 
 Neste desafio, implementamos com sucesso uma estrutura de Data Lake na AWS, configurando crawlers, jobs e pipelines que automatizam o processamento e a organização dos dados. Exploramos o uso do Apache Spark para transformar e limpar dados, aplicando técnicas de processamento e armazenamento otimizadas que aumentam a eficiência e facilitam a análise posterior dos dados com o Amazon Athena.
