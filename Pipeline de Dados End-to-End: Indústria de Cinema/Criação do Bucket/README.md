@@ -11,13 +11,13 @@ Praticar a combinação de conhecimentos adquiridos no programa, com foco na con
 Nesta etapa, foi criado o bucket **`data-lake-do-lucas`** no serviço **Amazon S3**. Esse bucket servirá como repositório central para os arquivos CSV que serão processados ao longo do desafio. Ele será utilizado para a ingestão de dados na **RAW Zone**, onde os dados brutos serão armazenados antes de qualquer processamento adicional. Esse bucket também será a base para as próximas etapas, como o processamento e análise dos dados nas futuras sprints.
 As pastas dentro do bucket seguirão a estrutura recomendada, garantindo a correta organização e padronização dos dados, com a definição de subdiretórios que categorizam origem, formato, e data de processamento, permitindo fácil gerenciamento e rastreabilidade dos arquivos.
 
-![Criando o bucket para o desafio](../evidencias/criandoBucket.png)
+![Criando o bucket para o desafio](evidencias/criandoBucket.png)
 
 ### 1.2 Exibindo o Bucket
 
 Abaixo está uma imagem do bucket **`data-lake-do-lucas`** já criado, mas ainda sem nenhum arquivo armazenado. Esta captura foi feita para documentar a configuração inicial do bucket. Nas próximas etapas, este bucket será utilizado para demonstrar o funcionamento dos códigos desenvolvidos, conforme os dados forem sendo carregados e processados.
 
-![Bucket antes da execucao dos codigos](../evidencias/bucketant.png)
+![Bucket antes da execucao dos codigos](evidencias/bucketant.png)
 
 ## 2. Etapa
 
@@ -150,7 +150,7 @@ docker build -t s3-upload .
 
 Este comando instrui o Docker a construir uma imagem a partir do `Dockerfile` presente no diretório atual, atribuindo o nome `s3-upload` à imagem gerada. Como podemos ver na imagem a segui: 
 
-![Criando a imagem no docker](../evidencias/imgdocker.png)
+![Criando a imagem no docker](evidencias/imgdocker.png)
 
 ### 4.2 Executando o Container a Partir da Imagem
 
@@ -168,16 +168,16 @@ Esse comando faz o seguinte:
 Essa execução permite que o script carregue os arquivos CSV para o bucket do Amazon S3, conforme demonstrado nos resultados a seguir:
 
 - **Resultado do Upload dos Arquivos:**
-![Resultado 1 do Container](../evidencias/resultado-1.png)
+![Resultado 1 do Container](evidencias/resultado-1.png)
 
 - **Resultado do Bucket com os Arquivos:**
-![Resultado 2 do Container](../evidencias/resultado-2.png)
+![Resultado 2 do Container](evidencias/resultado-2.png)
 
 - **Resultado do Bucket mostrando o caminho do arquivo no S3 - movies.csv:**
-![Resultado 3 do Container - movies.csv](../evidencias/resultado-mvs.png)
+![Resultado 3 do Container - movies.csv](evidencias/resultado-mvs.png)
 
 - **Resultado do Bucket mostrando o caminho do arquivo no S3 - series.csv:**
-![Resultado 4 do Container - series.csv](../evidencias/resultado-srs.png)
+![Resultado 4 do Container - series.csv](evidencias/resultado-srs.png)
 
 # Conclusão
 
@@ -189,13 +189,3 @@ A experiência adquirida aqui será valiosa para projetos futuros e para aprofun
 ### Observação 
 
 Os arquivos do desafio estão localizados na pasta chamada *Arquivos*, que se encontra dentro da pasta do desafio. Os arquivos CSV não foram incluídos no repositório devido ao seu tamanho. Optei por deixá-los fora para garantir uma melhor gestão do repositório.
-
-# Análises
-
-Para o desafio final, pretendo realizar as seguintes análises:
-
-- **Contar a popularidade do artista em filmes**: Nesta análise, contarei quantos filmes cada artista participou e exibirei os 10 artistas mais conhecidos, baseando-me na frequência de suas aparições.
-
-- **Contar quantos filmes foram lançados por ano**: Esta análise envolve a contagem de filmes lançados por ano e a identificação dos 5 anos com o maior número de lançamentos. Isso nos permitirá entender quais anos foram mais produtivos para a indústria do cinema.
-
-- **Mostrar a nota média de filmes da categoria romance**: Aqui, calcularei a média das notas dos filmes do gênero romance. Essa informação será útil para avaliar a recepção crítica geral dessa categoria de filmes.
