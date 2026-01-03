@@ -17,7 +17,7 @@ O desafio consistia em criar e configurar scripts para processar arquivos CSV de
 
       - **Imagem do codigo do Script `processamento_de_vendas.sh`:**
 
-    ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/codigo%20do%20processamento_de_vendas.sh%20-%202.png)
+    ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/codigo%20do%20processamento_de_vendas.sh%20-%202.png)
 
  - ***1.2 Script de Consolidação*** (**consolidador_de_processamento_de_vendas.sh**)
 
@@ -27,7 +27,7 @@ O desafio consistia em criar e configurar scripts para processar arquivos CSV de
 
    **Como evidenciado na imagem a seguir:** 
       - **Imagem do codigo do Script `consolidador_de_processamento_de_vendas.sh`:**
-      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/codigo%20do%20consolidador_de_vendas.sh%20%20-%201.png)
+      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/codigo%20do%20consolidador_de_vendas.sh%20%20-%201.png)
  ## 2 - Geração de Relatórios
  - ***2.1 Relatórios Diários***
 
@@ -86,16 +86,16 @@ O desafio consistia em criar e configurar scripts para processar arquivos CSV de
    **Como evidenciado nas imagens a seguir:** 
       - **Imagens do resultado do relatorio_final.txt pt - 1:**
 
-      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/mostrando%20resultado%20do%20relatorio%20final%20-%20pt%201.png)
+      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/mostrando%20resultado%20do%20relatorio%20final%20-%20pt%201.png)
 
       - **Imagens do resultado do relatorio_final.txt: pt - 2:**
 
-      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/mostrando%20resultado%20do%20relatorio%20final%20-%20pt%202.png)
+      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/mostrando%20resultado%20do%20relatorio%20final%20-%20pt%202.png)
 
 
       - **Imagens dos resultados dos Scripts de `processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh` apos serem executados:**
 
-      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/vendas%20e%20consolidador.png)
+      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/vendas%20e%20consolidador.png)
 
  ## 3 - Agendamento do Script
  - ***3.1 Configuração do Cron*** 
@@ -112,7 +112,7 @@ O desafio consistia em criar e configurar scripts para processar arquivos CSV de
 
      **Como evidenciado na imagem a seguir:**
       - **Imagen demonstrando como foi feito o agendamento:**
-      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](../evidencias/print%20para%20mostar%20o%20agendamento.png)
+      ![codigo do processamento_de_vendas sh para mostar no README na parte de desenvolvimento](evidencias/print%20para%20mostar%20o%20agendamento.png)
 
  ## 4 - Execução e Reexecução dos Scripts
   - ***4.1 Execução Inicial*** 
