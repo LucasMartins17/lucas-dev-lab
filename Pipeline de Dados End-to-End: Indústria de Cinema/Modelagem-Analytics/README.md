@@ -7,7 +7,7 @@ O objetivo é estruturar e transformar dados da camada Trusted para a camada Ref
 
 ## Modelagem do Banco de Dados: 
 
-![Modelagem Banco](../evidencias/modelagem.png)
+![Modelagem Banco](evidencias/modelagem.png)
 
 
 ## 1. Etapa
@@ -16,13 +16,13 @@ O objetivo é estruturar e transformar dados da camada Trusted para a camada Ref
 
 Nesta etapa, acessamos o **AWS Glue Console**, selecionamos a opção **ELT JOBS** e escolhemos **Spark Script Editor**. Como pode ser observado na imagem abaixo, esse é o primeiro passo para configurar o job que será utilizado para o processamento dos dados:
 
-![Criando e configurando o JOB](../evidencias/criando%20job.png)
+![Criando e configurando o JOB](evidencias/criando%20job.png)
 
 A partir dessa opção, você poderá escrever e configurar o script para processar os dados da camada Raw para a camada Trusted, utilizando o Apache Spark no AWS Glue.
 
 Após isso, selecionamos a opção **Spark** para indicar o tipo de processamento que será utilizado no job. Veja a imagem abaixo:
 
-![Selecionando Spark](../evidencias/spark.png)
+![Selecionando Spark](evidencias/spark.png)
 
  - #### Configurando o JOB
 
@@ -39,9 +39,9 @@ Por fim, configuramos os jobs para **Series**, **Movies** e **Json** da seguinte
 
 Como podemos ver nas imagens a seguir:
 
-![Selecionando Spark](../evidencias/cfg-1.png)  
-![Selecionando Spark](../evidencias/cfg-2.png)  
-![Selecionando Spark](../evidencias/cfg-3.png)
+![Selecionando Spark](evidencias/cfg-1.png)  
+![Selecionando Spark](evidencias/cfg-2.png)  
+![Selecionando Spark](evidencias/cfg-3.png)
 
 
 ## 2. Etapa
@@ -321,7 +321,7 @@ print("Arquivos Parquet processados e salvos com sucesso na Refined Zone!")
 
 ## Execução
 
-![Refined](../evidencias/refined.png)
+![Refined](evidencias/refined.png)
 
 ## 3. Etapa
 
@@ -337,7 +337,7 @@ Aqui está o passo a passo para criar os crawlers:
 2. No painel esquerdo, clique em **Crawlers** sob a seção "Data Catalog".
 3. Clique em **Add crawler** para iniciar a criação de um novo crawler.
 
-![Crawlers](../evidencias/criandcraw.png)
+![Crawlers](evidencias/criandcraw.png)
 
 ### Passo 2: Configurando o Crawler
 
@@ -347,13 +347,13 @@ Na tela de configuração do crawler, preencha as informações necessárias par
 
 - Nomeie o crawler de forma que ele seja facilmente identificável. Exemplo: `Refined - Filmes`.
 
-![Crawlers - nomes ](../evidencias/crawler.png)
+![Crawlers - nomes ](evidencias/crawler.png)
 
 1. Em **Data Store**, selecione **S3**.
 2. Em **Location of S3 data**, escolha a opção **In this account.** e  logo abaixo insira o caminho do S3 onde os arquivos CSV ou Parquet estão armazenados.
    - Exemplo de caminho: `s3://data-lake-do-lucas/REFINED/Movies/`.
 
-   ![Crawlers - Caminho ](../evidencias/camn.png)
+   ![Crawlers - Caminho ](evidencias/camn.png)
 
    #### Escopo da Carga de Dados
 
@@ -370,7 +370,7 @@ Na tela de configuração do crawler, preencha as informações necessárias par
 
    Após selecionar o role correto, esse IAM Role será associado ao seu job no AWS Glue, permitindo que ele tenha as permissões necessárias para acessar os recursos da AWS. 
 
-   ![Crawlers - IAM ](../evidencias/iam.png)
+   ![Crawlers - IAM ](evidencias/iam.png)
 
    ### Passo 4: Configurando a Database
    
@@ -380,7 +380,7 @@ Na tela de configuração do crawler, preencha as informações necessárias par
    
      Abaixo está uma imagem ilustrativa de como selecionar a **Target database**:
    
-      ![Crawlers - IAM ](../evidencias/database.png)
+      ![Crawlers - IAM ](evidencias/database.png)
   
   ### Passo 6: Executando o Crawler
   
@@ -389,8 +389,8 @@ Na tela de configuração do crawler, preencha as informações necessárias par
   3. O AWS Glue começará a ler os arquivos e a inferir a estrutura dos dados, criando as tabelas no catálogo de dados do Glue.
   4. Apos esta execução podemos verificar no Crawler se a execução foi um sucesso
   
-     ![Crawlers - Executando ](../evidencias/exe.png)
-     ![Crawlers - Sucesso ](../evidencias/sucess.png)
+     ![Crawlers - Executando ](evidencias/exe.png)
+     ![Crawlers - Sucesso ](evidencias/sucess.png)
    
 ### Passo 7: Verificando as Tabelas no Athena
 
@@ -439,7 +439,7 @@ WHERE
 |----|-----------------|--------------------------|------------------|------------------|-----------------|-----------------|-----------------|------------|-----------------|
 | 1  | Suzana Pires    | actress, writer, producer | Sônia Cavalcanti | Casa Grande      | Drama, Romance  | 2014            | 115             | 6.9        | 2782            |
 
-  ![Crawlers - Sucesso ](../evidencias/consulta.png)
+  ![Crawlers - Sucesso ](evidencias/consulta.png)
 
 # Análises Pretendidas
 
