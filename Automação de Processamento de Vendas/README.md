@@ -149,10 +149,15 @@ Acredito que a documentação está bem estruturada e fornece uma visão abrange
 
 # Diretorios dos arquivos
 
-Nos diretórios abaixo, você poderá acessar as evidências que eu incluí, além de visualizar o resultado final na pasta `ecommerce`, que contém todos os relatórios, backups, e os códigos gerados. Para facilitar a compreensão, os scripts também foram clonados para uma pasta separada, caso haja qualquer confusão ao examiná-los na pasta `ecommerce`.
+Nos diretórios abaixo você encontrará todas as evidências do projeto.
+A pasta `Resultados` reúne os relatórios finais gerados e os arquivos de backup.
+Os scripts desenvolvidos para o processamento e automação estão disponíveis na pasta `Scripts`.
+Para referência, o arquivo CSV utilizado nos testes e execuções do projeto pode ser encontrado na pasta `CSV`.
 
-1 📁 - [Ecommerce - Scripts](Ecommerce-%20Scripts/)
+1 📁 - [Resultados](Resultados/)
  
-2 📁 - [Evidencias](../evidencias/)
+2 📁 - [Scripts](Scripts/)
+
+3 📁 - [CSV](CSV/)
 
 
