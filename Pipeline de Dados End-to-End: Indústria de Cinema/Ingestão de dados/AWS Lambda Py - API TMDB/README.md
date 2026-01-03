@@ -35,7 +35,7 @@ Para carregar a camada no AWS Lambda, siga os seguintes passos:
    - **Arquivo .zip**: Faça o upload do arquivo `lambda_layer.zip` que você criou.
    - **Compatibilidade**: Selecione a versão do Python que você está usando no Lambda (por exemplo, Python 3.11).
 
-![subindo a camada para o Lambda](../evidencias/Camada.png)
+![subindo a camada para o Lambda](evidencias/Camada.png)
 
 Isso criará a camada, que poderá ser adicionada às funções Lambda conforme necessário.
 
@@ -43,7 +43,7 @@ Isso criará a camada, que poderá ser adicionada às funções Lambda conforme 
 
 Para garantir segurança no código, definimos a chave da API como uma variável de ambiente no AWS Lambda, com o nome `TMDB_API_KEY`, conforme mostrado na imagem a seguir:
 
-![Definindo a variável de ambiente da chave da API](../evidencias/variavel.png)
+![Definindo a variável de ambiente da chave da API](evidencias/variavel.png)
 
 
 ## 2. Etapa
@@ -311,8 +311,8 @@ Nesta etapa, apresentaremos os resultados das consultas realizadas para três fi
 
   Busca e salvamento executados com sucesso: 
 
-  ![Buscando os dados do ID](../evidencias/tt8447664.png)  
-  ![Verificando o salvamento](../evidencias/sv-3.png)
+  ![Buscando os dados do ID](evidencias/tt8447664.png)  
+  ![Verificando o salvamento](evidencias/sv-3.png)
 
 - **Filme com Maior Nota Média**  
   **ID**: `tt0380452`  
@@ -322,8 +322,8 @@ Nesta etapa, apresentaremos os resultados das consultas realizadas para três fi
 
   Busca e salvamento executados com sucesso:
 
-  ![Buscando os dados do ID](../evidencias/tt0380452.png)  
-  ![Verificando o salvamento](../evidencias/sv-1.png)
+  ![Buscando os dados do ID](evidencias/tt0380452.png)  
+  ![Verificando o salvamento](evidencias/sv-1.png)
 
 - **Filmes em que Suzana Pires Aparece**  
   **ID**: `tt3474994`  
@@ -331,8 +331,8 @@ Nesta etapa, apresentaremos os resultados das consultas realizadas para três fi
 
   Busca e salvamento executados com sucesso:  
 
-  ![Buscando os dados do ID](../evidencias/tt3474994.png)  
-  ![Verificando o salvamento](../evidencias/sv-2.png)
+  ![Buscando os dados do ID](evidencias/tt3474994.png)  
+  ![Verificando o salvamento](evidencias/sv-2.png)
 
 ## Observação
 
