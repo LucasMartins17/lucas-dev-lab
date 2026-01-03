@@ -547,7 +547,8 @@ Essa consulta retornará os primeiros 10 registros da tabela gerada a partir dos
 ![Crawlers - Sucesso ](evidencias/tmdb.png)
 
 # ⚠️ Observação 
-Nas consultas realizadas alguns dados na primeira observação podem se mostrar como "duplicados" mas se os analisarmos podemos notar que no decorrer de sua linha alguma informação muda. Muito obrigado pela compreensão.
+
+Em algumas consultas, determinados registros podem inicialmente aparentar duplicidade. Porém, ao analisá-los em detalhe, percebe-se que existem variações em seus campos ao longo da linha, o que os caracteriza como entradas distintas. Obrigado pela compreensão.
 
 # Conclusão
 
