@@ -47,7 +47,7 @@ Projeto com foco em análise de performance de filmes e boas práticas de arquit
 ### 🔹 2. Automação de Processamento de Vendas
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./Automação%20de%20Processamento%20de%20Vendas/README.md)
+[Ir para o projeto](./Automação%20de%20Processamento%20de%20Vendas/)
 
 **Descrição:** Sistema de automação para organização e processamento de arquivos CSV de e-commerce.
 
