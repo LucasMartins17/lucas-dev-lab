@@ -28,7 +28,7 @@ Tenho experiência com pipelines de dados em nuvem, automação de processos, or
 ### 🔹 1. Pipeline de Dados End-to-End — Indústria de Cinema
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./Pipeline%20de%20Dados%20End-to-End%3A%20Ind%C3%BAstria%20de%20Cinema/README.md)
+[Ir para o projeto](./Pipeline%20de%20Dados%20End-to-End%3A%20Ind%C3%BAstria%20de%20Cinema/)
 
 **Descrição:** Desenvolvimento de um pipeline completo de Engenharia de Dados na nuvem para tratamento e análise de dados provenientes da API TMDB e arquivos CSV.
 
@@ -47,7 +47,7 @@ Projeto com foco em análise de performance de filmes e boas práticas de arquit
 ### 🔹 2. Automação de Processamento de Vendas
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./Automa%C3%A7%C3%A3o%20de%20Processamento%20de%20Vendas/README.md)
+[Ir para o projeto](./Automa%C3%A7%C3%A3o%20de%20Processamento%20de%20Vendas/)
 
 **Descrição:** Sistema de automação para organização e processamento de arquivos CSV de e-commerce.
 
@@ -69,7 +69,7 @@ Projeto focado em Shell Script, organização de pipelines locais e controle ope
 ### 🔹 3. Conteinerização de Aplicações com Docker
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./docker-conteinerizacao/README.md)
+[Ir para o projeto](./docker-conteinerizacao/)
 
 **Descrição:** Implementação de ambientes isolados para desenvolvimento e execução de aplicações.
 
