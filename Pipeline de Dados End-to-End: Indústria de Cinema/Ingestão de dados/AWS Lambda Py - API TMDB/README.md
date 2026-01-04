@@ -338,11 +338,11 @@ Nesta etapa, apresentaremos os resultados das consultas realizadas para três fi
 
 Gostaria de destacar que as análises realizadas sobre os IDs dos filmes apresentados podem ser revisadas nas próximas etapas. Tenho a intenção de examinar mais detalhadamente os dois arquivos CSV e identificar pontos adicionais que possam ser mais relevantes para focar e comparar com os dados já obtidos.
 
-O código utilizado para realizar as consultas no Lambda está localizado na pasta Codigos, que faz parte da estrutura do projeto. Dentro dessa pasta, também está o arquivo python.zip, que contém as bibliotecas necessárias para a execução do código. Esse arquivo foi criado e configurado para garantir que todas as dependências, como a API do TMDb, sejam corretamente carregadas durante a execução no Lambda.
+O código utilizado para realizar as consultas no Lambda está localizado na pasta `Codigos`, que faz parte da estrutura do projeto. Dentro dessa pasta, também está o arquivo python.zip, que contém as bibliotecas necessárias para a execução do código. Esse arquivo foi criado e configurado para garantir que todas as dependências, como a API do TMDb, sejam corretamente carregadas durante a execução no Lambda.
 A estrutura da pasta Codigos e a presença do arquivo python.zip são essenciais para o funcionamento adequado do projeto no ambiente Lambda, permitindo a execução automatizada e eficiente das consultas e o processamento dos dados.
 
 # Conclusão
 
-Nesta etapa, conseguimos integrar dados da API do TMDb e realizar consultas detalhadas sobre filmes específicos. As consultas foram bem-sucedidas, e os dados foram processados e salvos corretamente no Amazon S3. Além disso, conseguimos identificar filmes com as maiores notas médias e buscar informações específicas sobre a participação de atores.
+Nesta etapa, consegui integrar dados da API do TMDb e realizar consultas detalhadas sobre filmes específicos. As consultas foram bem-sucedidas, e os dados foram processados e salvos corretamente no Amazon S3. Além disso, consegui identificar filmes com as maiores notas médias e buscar informações específicas sobre a participação de atores.
 Embora os resultados apresentados sejam baseados em dados iniciais, a análise ainda está em andamento. Nas próximas etapas, pretendo aprofundar a análise dos dados e buscar novas comparações e insights, com o objetivo de tornar as consultas mais completas e relevantes.
 A integração com o TMDb e o uso do S3 proporcionaram uma forma eficiente de armazenar e gerenciar as informações, o que contribui para o sucesso da execução até o momento.
