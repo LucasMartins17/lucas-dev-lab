@@ -38,7 +38,7 @@ Cada módulo possui scripts, notebooks e documentação própria dentro do Dev L
 
 ---
 
-## 🔹 1. Ingestão de Dados (01-Ingestao)
+## 🔹 1. Ingestão de Dados 
 
 ### 📥 Função
 
@@ -79,7 +79,7 @@ Nesta etapa demonstro conhecimento em:
 
 ---
 
-## 🔹 2. Processamento — ETL (02-Processamento-ETL)
+## 🔹 2. Processamento — ETL 
 
 ### 🧹 Função
 
@@ -108,7 +108,7 @@ Benefícios alcançados:
 
 ---
 
-## 🔹 3. Modelagem & Analytics (03-Modelagem-Analytics)
+## 🔹 3. Modelagem & Analytics 
 
 ### 🧠 Função
 
@@ -136,7 +136,7 @@ Resultados:
 
 ---
 
-## 🔹 4. Visualização & Insights (04-Visualizacao)
+## 🔹 4. Visualização & Insights 
 
 ### 📊 Função
 
