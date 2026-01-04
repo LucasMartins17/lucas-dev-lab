@@ -62,7 +62,7 @@ Estrutura no S3:
 ```
 raw/
  ├── csv/
- └── api_tmdb/
+ └── TMDB/
 ```
 
 Nesta etapa demonstro conhecimento em:
