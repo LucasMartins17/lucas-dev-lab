@@ -142,10 +142,61 @@ Conectado ao Athena para análise direta no S3.
 
 ### 🔎 Principais análises realizadas
 
-* Popularidade de artistas
-* Tendência de gêneros (Drama, Romance, Comédia)
-* Evolução histórica de produções
-* Distribuição temporal de lançamentos
+As análises desenvolvidas neste projeto tiveram como foco os gêneros **Drama** e **Romance**, com ênfase na presença feminina no cinema e nas diferenças de preferência entre atores e atrizes.
+
+#### 🎭 1) Popularidade dos Gêneros
+
+**Objetivo:** comparar Drama e Romance com outros gêneros para identificar padrões de relevância e consumo.
+
+Perguntas analisadas:
+
+* Esses gêneros são preferidos por um público ou perfil específico?
+* Como se posicionam em relação a outros gêneros populares?
+
+---
+
+#### 👩‍🎤 2) Participação de Suzana Pires
+
+**Objetivo:** investigar os gêneros mais recorrentes na carreira da atriz.
+
+Perguntas analisadas:
+
+* Em quais gêneros Suzana Pires atua com maior frequência?
+* Há padrões nos filmes em que ela participa?
+
+---
+
+#### 🎭👨 Comparação com um ator brasileiro
+
+**Objetivo:** comparar padrões de atuação entre um ator masculino e Suzana Pires.
+
+Perguntas analisadas:
+
+* Quais gêneros aparecem com maior frequência em cada carreira?
+* Existem diferenças relevantes entre escolhas de gênero por sexo?
+
+---
+
+#### ⚖️ Preferências de gêneros por sexo
+
+**Objetivo:** identificar tendências entre atores e atrizes.
+
+Perguntas analisadas:
+
+* Quais gêneros são mais comuns entre artistas masculinos?
+* Quais aparecem mais entre atrizes femininas?
+
+---
+
+#### ⭐ Popularidade dos artistas
+
+**Objetivo:** analisar popularidade com base em número de votos.
+
+Perguntas analisadas:
+
+* Quem são os 10 artistas mais populares?
+* Há diferença de popularidade entre homens e mulheres?
+* O volume de votos varia entre perfis de artistas?
 
 Objetivo desta etapa:
 
