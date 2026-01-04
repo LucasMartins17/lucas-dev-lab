@@ -2,7 +2,7 @@
 
 ## **Objetivo**
 
-Praticar a combinação de conhecimentos adquiridos no programa, com foco na construção de um Data Lake na AWS, realizando a ingestão de arquivos CSV e dados de API, utilizando tecnologias como boto3, Docker e o serviço Amazon S3. O objetivo principal desta etapa é carregar os dados localmente para o S3 na camada RAW Zone, como parte do processo de ingestão de dados para a primeira fase do Data Lake.
+Praticar a combinação de conhecimentos adquiridos, com foco na construção de um Data Lake na AWS, realizando a ingestão de arquivos CSV e dados de API, utilizando tecnologias como boto3, Docker e o serviço Amazon S3. O objetivo principal desta etapa é carregar os dados localmente para o S3 na camada RAW Zone, como parte do processo de ingestão de dados para a primeira fase do Data Lake.
 
 ## 1. Etapa
 
@@ -188,4 +188,4 @@ A experiência adquirida aqui será valiosa para projetos futuros e para aprofun
 
 ### Observação 
 
-Os arquivos do desafio estão localizados na pasta chamada *Arquivos*, que se encontra dentro da pasta do desafio. Os arquivos CSV não foram incluídos no repositório devido ao seu tamanho. Optei por deixá-los fora para garantir uma melhor gestão do repositório.
+Os arquivos do desafio estão localizados na pasta chamada *Arquivos*, que se encontra dentro da pasta do desafio. Os arquivos CSV não foram incluídos no repositório devido ao seu tamanho. Optei por deixá-los fora para garantir uma melhor gestão do repositório. Também optei por utilizar apenas o arquivo csv de filmes (movies).
