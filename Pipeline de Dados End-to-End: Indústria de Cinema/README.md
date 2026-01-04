@@ -60,9 +60,15 @@ Os dados são armazenados na camada:
 Estrutura no S3:
 
 ```
-raw/
- ├── csv/
- └── TMDB/
+Raw/
+ └── Local/
+      └── CSV/
+           ├── Movies/
+           └── Series/
+Raw/
+ └── Local/
+      └── TMDB/
+           └── JSON/
 ```
 
 Nesta etapa demonstro conhecimento em:
