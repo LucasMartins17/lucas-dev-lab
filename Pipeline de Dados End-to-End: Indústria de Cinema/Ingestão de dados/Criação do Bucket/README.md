@@ -181,11 +181,11 @@ Essa execução permite que o script carregue os arquivos CSV para o bucket do A
 
 # Conclusão
 
-Neste desafio, desenvolvemos um pipeline de ingestão de dados para um Data Lake utilizando a AWS, especificamente o serviço S3. Através da criação de um bucket no S3 e do desenvolvimento de um script em Python, conseguimos carregar arquivos CSV de filmes e séries para a camada de armazenamento RAW. 
+Neste projeto, desenvolvi um pipeline de ingestão de dados para um Data Lake utilizando a AWS, especificamente o serviço S3. Através da criação de um bucket no S3 e do desenvolvimento de um script em Python, conseguimos carregar arquivos CSV de filmes e séries para a camada de armazenamento RAW. 
 O processo foi realizado em um container Docker, permitindo um ambiente controlado e replicável. As execuções mostraram resultados positivos, com os arquivos corretamente armazenados e organizados no S3, conforme o padrão estabelecido. 
-Com essa implementação, adquirimos experiência prática em manipulação de dados na nuvem, utilização da biblioteca Boto3 para interações com a AWS e compreensão do funcionamento de containers Docker. Esse projeto é um passo importante para avançar nas etapas seguintes do desafio, que incluirão o processamento e análise dos dados armazenados. 
+Com essa implementação, adquiri a experiência prática em manipulação de dados na nuvem, utilização da biblioteca Boto3 para interações com a AWS e compreensão do funcionamento de containers Docker. Esse projeto é um passo importante para avançar nas etapas seguintes do projeto, que incluirão o processamento e análise dos dados armazenados. 
 A experiência adquirida aqui será valiosa para projetos futuros e para aprofundar o conhecimento em arquitetura de dados e serviços em nuvem.
 
 ### Observação 
 
-Os arquivos do desafio estão localizados na pasta chamada *Arquivos*, que se encontra dentro da pasta do desafio. Os arquivos CSV não foram incluídos no repositório devido ao seu tamanho. Optei por deixá-los fora para garantir uma melhor gestão do repositório. Também optei por utilizar apenas o arquivo csv de filmes (movies).
+Os arquivos deste projeto estão localizados na pasta chamada *Arquivos*, que se encontra dentro da pasta do desafio. Os arquivos CSV não foram incluídos no repositório devido ao seu tamanho. Optei por deixá-los fora para garantir uma melhor gestão do repositório. Também optei por utilizar apenas o arquivo csv de filmes (movies).
