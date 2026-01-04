@@ -331,7 +331,7 @@ Sim, uma conclusão baseada nas etapas apresentadas pode ser elaborada com foco 
 
 # **Conclusão**
 
-Neste desafio, aplicamos técnicas de análise de dados utilizando Python, Pandas e Matplotlib para processar e visualizar informações sobre os aplicativos da Google Play Store. Durante a realização do projeto, foi possível executar diversas tarefas importantes, como a limpeza de dados, transformação de colunas em formatos adequados e a geração de gráficos para facilitar a visualização e interpretação dos dados.
+Neste projeto, foram utilizadas técnicas de análise de dados utilizando Python, Pandas e Matplotlib para processar e visualizar informações sobre os aplicativos da Google Play Store. Durante a realização do projeto, foi possível executar diversas tarefas importantes, como a limpeza de dados, transformação de colunas em formatos adequados e a geração de gráficos para facilitar a visualização e interpretação dos dados.
 
 Através da análise, obtivemos insights valiosos, como:
 
@@ -344,10 +344,10 @@ Através da análise, obtivemos insights valiosos, como:
 
 Essas etapas foram essenciais para aprimorar habilidades em manipulação de dados e visualização de informações, além de destacar a importância da limpeza e organização dos dados para garantir resultados confiáveis e úteis.
 
-Com o uso dessas ferramentas e técnicas, conseguimos responder perguntas importantes sobre o dataset da Google Play Store, e esses insights podem ser aplicados a análises mais amplas no futuro.
+Com o uso dessas ferramentas e técnicas, foi possível responder perguntas importantes sobre o dataset da Google Play Store, e esses insights podem ser aplicados a análises mais amplas no futuro.
 
 
 # Observação
 
-Os códigos relacionados ao desafio estão organizados na pasta denominada `Codigos`. Esta organização visa proporcionar uma visualização mais prática e simplificada de todos os arquivos pertinentes ao desafio. 
-Dentro desta pasta, você encontrará o arquivo **.ipynb** intitulado [ajustar], que contém uma explicação clara sobre o funcionamento das análises gráficas e cálculos realizados. Vale destacar que a explicação no notebook é mais concisa em comparação com a encontrada no README.md do desafio.
+Os códigos relacionados ao projeto estão organizados na pasta denominada `Codigos`. Esta organização visa proporcionar uma visualização mais prática e simplificada de todos os arquivos pertinentes ao desafio. 
+Dentro desta pasta, você encontrará o arquivo **.ipynb** intitulado `analises.ipynb`, que contém uma explicação clara sobre o funcionamento das análises gráficas e cálculos realizados. Vale destacar que a explicação no notebook é mais concisa em comparação com a encontrada no README.md do projeto. Por fim ao acessar a pasta nomeada de `CSV` você poderá encontrar o arquivo `googleplaystore.csv`, que foi utilizado para esse projeto.
