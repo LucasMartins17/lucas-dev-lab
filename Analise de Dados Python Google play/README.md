@@ -2,7 +2,7 @@
 
 # **Objetivo**
 
-O objetivo deste desafio foi praticar Python utilizando as bibliotecas Pandas e Matplotlib. O desafio consistiu em ler e processar o arquivo `googleplaystore.csv`, gerar gráficos para análise de dados e visualizar informações como os top 5 apps por número de instalações, as categorias de apps e o app mais caro. Além disso, foi necessário identificar apps classificados como 'Mature 17+', os top 10 apps por número de reviews e realizar cálculos adicionais. O desafio também incluiu a criação de diferentes tipos de gráficos para uma melhor visualização dos dados.
+O objetivo deste projeto foi praticar Python utilizando as bibliotecas Pandas e Matplotlib. O projeto consistiu em ler e processar o arquivo `googleplaystore.csv`, gerar gráficos para análise de dados e visualizar informações como os top 5 apps por número de instalações, as categorias de apps e o app mais caro. Além disso, foi necessário identificar apps classificados como 'Mature 17+', os top 10 apps por número de reviews e realizar cálculos adicionais. O desafio também incluiu a criação de diferentes tipos de gráficos para uma melhor visualização dos dados.
 
 ## 1. Limpeza e Leitura dos dados 
 
