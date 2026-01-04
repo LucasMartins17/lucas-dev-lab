@@ -23,19 +23,18 @@ O projeto integra dados provenientes de **arquivos CSV** e de uma **API externa 
 O foco do projeto é demonstrar:
 
 > habilidades técnicas + visão analítica + boas práticas arquiteturais.
-
 ---
 
 ## 🧱 Estrutura do Projeto
 
-```
-01-Ingestao/
-02-Processamento-ETL/
-03-Modelagem-Analytics/
-04-Visualizacao/
-```
+Este projeto está organizado em quatro módulos, representando cada etapa do pipeline de dados:
 
-Cada pasta representa uma etapa do pipeline de dados.
+* 📥 **[Ingestão de Dados](./Ingestão%20de%20dados/)**
+* ⚙️ **[Processamento-ETL](./Processamento-ETL/)**
+* 🧠 **[Modelagem-Analytics](./Modelagem-Analytics/)**
+* 📊 **[Visualização](./Visualizacao/)**
+
+Cada módulo possui scripts, notebooks e documentação própria dentro do Dev Lab.
 
 ---
 
