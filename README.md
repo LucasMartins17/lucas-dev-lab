@@ -66,23 +66,36 @@ Projeto focado em Shell Script, organização de pipelines locais e controle ope
 
 ---
 
-### 🔹 3. Conteinerização de Aplicações com Docker
+### 🔹 4. Análise de Dados com Python — Google Play Store
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./docker-conteinerizacao/)
+[Ir para o projeto](./analise-dados-google-play/)
 
-**Descrição:** Implementação de ambientes isolados para desenvolvimento e execução de aplicações.
+**Descrição:** Exploração e processamento do dataset `googleplaystore.csv` utilizando Python para realizar limpeza de dados, cálculos estatísticos e geração de visualizações gráficas para apoio à análise exploratória.
 
 **Tecnologias utilizadas:**
 
-* Criação de Dockerfiles
-* Docker Compose para orquestração de serviços
+* Python
+* Pandas para manipulação e tratamento de dados
+* Matplotlib para criação de gráficos e visualizações
+
+**Atividades realizadas:**
+
+* Limpeza e padronização das colunas `Installs`, `Price` e `Reviews`
+* Identificação dos Top 5 apps mais instalados
+* Análise da distribuição de categorias
+* Localização do aplicativo mais caro e do menos instalado
+* Contagem de apps classificados como **Mature 17+**
+* Top 10 apps por número de reviews
+* Cálculo do preço médio por categoria
+* Análise da relação entre instalações e reviews
 
 **Benefícios obtidos:**
 
-* Paridade entre desenvolvimento e produção
-* Redução de conflitos de ambiente
-* Maior escalabilidade e portabilidade
+* Desenvolvimento de habilidades em análise de dados
+* Experiência prática com datasets reais
+* Melhor compreensão de métricas de mercado de aplicativos
+* Consolidação de conceitos de limpeza, tratamento e visualização de dados
 
 ---
 
