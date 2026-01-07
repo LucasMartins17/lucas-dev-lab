@@ -66,10 +66,10 @@ Projeto focado em Shell Script, organização de pipelines locais e controle ope
 
 ---
 
-### 🔹 4. Análise de Dados com Python — Google Play Store
+### 🔹 3. Análise de Dados com Python — Google Play Store
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./analise-dados-google-play/)
+[Ir para o projeto](./Análise%20de%20Dados%20Python%20Google%20play/)
 
 **Descrição:** Exploração e processamento do dataset `googleplaystore.csv` utilizando Python para realizar limpeza de dados, cálculos estatísticos e geração de visualizações gráficas para apoio à análise exploratória.
 
