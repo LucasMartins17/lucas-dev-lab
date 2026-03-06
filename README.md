@@ -9,13 +9,14 @@ Este repositório reúne uma seleção de projetos que marcaram minha trajetóri
 Olá! Meu nome é **Lucas Martins Elias de Oliveira**.
 Sou estudante de **Análise e Desenvolvimento de Sistemas** e tenho formação técnica em Informática pelo IFSP.
 
-Busco consolidar minha carreira nas áreas de **Desenvolvimento** e **Engenharia de Dados**, aplicando conhecimentos em:
+Busco consolidar minha carreira nas áreas de **Desenvolvimento**, **Engenharia de Dados** e **Programação Web**, aplicando conhecimentos em:
 
 * Python, SQL e Shell Script
 * AWS (S3, Glue, Lambda)
 * Docker e Git
 * PostgreSQL e MySQL
 * Linux e Windows
+* Html, Css, Js e Php
 
 Tenho experiência com pipelines de dados em nuvem, automação de processos, organização de dados e apoio técnico a usuários. Sou proativo, focado em aprendizado contínuo e gosto de trabalhar em equipe e em projetos orientados a resultados.
 
