@@ -7,7 +7,7 @@ export default function Dashboard() {
       <div>
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
         <p className="text-muted-foreground">
-          Bem-vindo ao seu painel de controle / Welcome to your dashboard.
+          Bem-vindo ao seu painel de controle 
         </p>
       </div>
 
@@ -40,7 +40,7 @@ export default function Dashboard() {
 
       {/* Espaço para um gráfico ou tabela futura */}
       <div className="h-[300px] w-full rounded-xl border border-dashed flex items-center justify-center text-muted-foreground">
-        Área do Gráfico / Charts Area (Coming Soon)
+        Área do Gráfico
       </div>
     </div>
   )
