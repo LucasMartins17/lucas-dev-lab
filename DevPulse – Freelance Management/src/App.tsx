@@ -5,38 +5,49 @@ import { AppSidebar } from "@/components/layout/Sidebar";
 import Dashboard from "@/pages/Dashboard";
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "./components/mode-toggle";
-
+import Login from "./pages/Login";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-    <BrowserRouter>
-      <TooltipProvider>
-        <SidebarProvider>
-          <AppSidebar />
-          <SidebarInset>
-            <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
-              <SidebarTrigger />
-              <div className="flex items-center gap-2 px-3">
-                <span className="text-sm font-semibold">Fatec Lab</span>
-                <span className="text-muted-foreground">/</span>
-                <span className="text-sm text-muted-foreground">Project Manager</span>
-              </div>
-              <div className="flex items-center gap-2">
-    <ModeToggle />
-  </div>
-            </header>
+      <BrowserRouter>
+        <TooltipProvider>
+          <Routes>
+            {/* 1. ROTA DE LOGIN: Totalmente fora do SidebarProvider */}
+            <Route path="/login" element={<Login />} />
 
-            <main className="flex-1 overflow-y-auto p-6">
-              <Routes>
-                <Route path="/" element={<Dashboard />} />
-                {/* Página de Login separada depois */}
-              </Routes>
-            </main>
-          </SidebarInset>
-        </SidebarProvider>
-      </TooltipProvider>
-    </BrowserRouter>
+            {/* 2. ROTAS DO SISTEMA: Tudo que precisa de Sidebar e Header */}
+            <Route
+              path="/*"
+              element={
+                <SidebarProvider>
+                  <AppSidebar />
+                  <SidebarInset>
+                    <header className="flex h-16 shrink-0 items-center justify-between border-b px-4">
+                      <div className="flex items-center gap-2">
+                        <SidebarTrigger />
+                        <div className="flex items-center gap-2 px-3">
+                          <span className="text-sm font-semibold">Fatec Lab</span>
+                          <span className="text-muted-foreground">/</span>
+                          <span className="text-sm text-muted-foreground">Project Manager</span>
+                        </div>
+                      </div>
+                      <ModeToggle />
+                    </header>
+
+                    <main className="flex-1 overflow-y-auto p-6">
+                      <Routes>
+                        <Route path="/" element={<Dashboard />} />
+                        {/* Outras rotas internas aqui */}
+                      </Routes>
+                    </main>
+                  </SidebarInset>
+                </SidebarProvider>
+              }
+            />
+          </Routes>
+        </TooltipProvider>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }

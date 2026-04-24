@@ -53,7 +53,9 @@ export function AppSidebar() {
     <Sidebar variant="inset">
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className="text-primary font-bold">DevPulse</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-primary font-bold text-lg mb-2">
+              DevPulse
+          </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
