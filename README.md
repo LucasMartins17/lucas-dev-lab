@@ -29,7 +29,7 @@ Tenho experiência com pipelines de dados em nuvem, automação de processos, or
 ### 🔹 1. Pipeline de Dados End-to-End — Indústria de Cinema
 
 📁 **Acesse o projeto:**
-[Ir para o projeto](./Pipeline%20de%20Dados%20End-to-End%3A%20Ind%C3%BAstria%20de%20Cinema/)
+[Ir para o projeto](./Pipeline%20de%20Dados%20Cinema/)
 
 **Descrição:** Desenvolvimento de um pipeline completo de Engenharia de Dados na nuvem para tratamento e análise de dados provenientes da API TMDB e arquivos CSV.
 
