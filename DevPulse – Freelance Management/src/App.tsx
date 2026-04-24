@@ -3,10 +3,13 @@ import { SidebarProvider, SidebarInset, SidebarTrigger } from "@/components/ui/s
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AppSidebar } from "@/components/layout/Sidebar";
 import Dashboard from "@/pages/Dashboard";
+import { ThemeProvider } from "@/components/theme-provider"
+import { ModeToggle } from "./components/mode-toggle";
 
 
 function App() {
   return (
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
     <BrowserRouter>
       <TooltipProvider>
         <SidebarProvider>
@@ -19,6 +22,9 @@ function App() {
                 <span className="text-muted-foreground">/</span>
                 <span className="text-sm text-muted-foreground">Project Manager</span>
               </div>
+              <div className="flex items-center gap-2">
+    <ModeToggle />
+  </div>
             </header>
 
             <main className="flex-1 overflow-y-auto p-6">
@@ -31,6 +37,7 @@ function App() {
         </SidebarProvider>
       </TooltipProvider>
     </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
